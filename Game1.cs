@@ -29,8 +29,8 @@ namespace Scaling_Using_Rectangles_and_Text
         {
             // TODO: Add your initialization logic here
             Random generator = new Random();
-            xValue = generator.Next(_graphics.PreferredBackBufferWidth - 80);
-            yValue = generator.Next(_graphics.PreferredBackBufferHeight - 80);
+            xValue = generator.Next(_graphics.PreferredBackBufferWidth);
+            yValue = generator.Next(_graphics.PreferredBackBufferHeight);
             base.Initialize();
         }
 
